@@ -6,12 +6,12 @@
 	<div class="flex flex-col gap-8 items-center">
 		<div class="w-full">
 			<h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-black md:text-5xl lg:text-6xl"><span
-					class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Coacheta</span>
+					class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 ">Coacheta</span>
 				Your Fitness Assistant</h1>
 		</div>
-		<div class="mt-4 flex w-full">
+		<div class="mt-4 flex w-full ">
 			<div class="flex-[1_1_100%]">
-				<img src="../assets/imgs/Creation_de_seance.png" />
+				<img src="../assets/imgs/Coacheta_home.gif" />
 			</div>
 			<div class="card flex-[1_1_100%]">
 				<div class="text-3xl font-extrabold text-gray-900">Ecran d'accueil</div>

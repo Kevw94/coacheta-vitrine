@@ -6,6 +6,8 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  --text-primary: "F0FFFD";
+  --bg-primary: #23262E;
 
 
   font-synthesis: none;
@@ -14,6 +16,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+/*
 a {
   font-weight: 500;
   color: #646cff;
@@ -27,7 +41,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  /* place-items: center; */
+
   min-width: 320px;
   min-height: 100vh;
 }
@@ -71,3 +85,5 @@ button:focus-visible {
 	gap: 1rem;
 
 }
+
+*/
