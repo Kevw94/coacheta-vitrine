@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import HelloWorld from './components/Introduce.vue';
-import Header from "./components/Header.vue";
+import Header from './components/Header.vue'
 </script>
 
 <template>
-  <Header/>
-	<HelloWorld/>
+  <div>
+    <Header />
+    <router-view />
+  </div>
 </template>
 
 <style scoped>
-
 </style>

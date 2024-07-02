@@ -11,7 +11,7 @@
 		</div>
 		<div class="mt-4 flex w-full ">
 			<div class="flex-[1_1_100%]">
-				<img src="../assets/imgs/Coacheta_home.gif" />
+				<img src="../assets/imgs/template_coacheta.svg" />
 			</div>
 			<div class="card flex-[1_1_100%]">
 				<div class="text-3xl font-extrabold text-gray-900">Ecran d'accueil</div>
