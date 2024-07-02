@@ -4,7 +4,7 @@
       <div class="absolute inset-0 flex items-center justify-center">
         <div class="circle"></div>
       </div>
-      <img :src="image" alt="Feature image" class="relative z-10 mx-auto">
+      <img :src="getUrl(image)" alt="Feature image" class="relative z-10 mx-auto">
     </div>
     <div class="flex-1 text-center md:text-left">
       <h3 class="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white">{{ title }}</h3>
@@ -14,8 +14,11 @@
 </template>
 
 <script setup lang="ts">
+import {getUrl} from "../shared/utils.ts";
+
+
 defineProps<{
-  image: string;
+  image: string ;
   title: string;
   description: string;
 }>();

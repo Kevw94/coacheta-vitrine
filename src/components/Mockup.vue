@@ -20,6 +20,6 @@ const circleStyle = computed(() => ({
   background-color: #23262E;
 }
 .shadow-lg {
-  box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+  box-shadow: 0 8px 12px 6px rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.30);
 }
 </style>

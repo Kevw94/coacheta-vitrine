@@ -16,9 +16,9 @@ import FeatureScreen from '../components/FeatureScreen.vue';
       </p>
     </div>
     <div class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <FeatureItem image="../assets/imgs/feature1.svg" text="Planifiez vos séances de musculation." />
-      <FeatureItem image="../assets/imgs/feature2.svg" text="Suivez vos performances physiques." />
-      <FeatureItem image="../assets/imgs/feature3.svg" text="Partagez vos progrès avec vos amis." />
+      <FeatureItem image="coacheta.svg" text="Planifiez vos séances de musculation." />
+      <FeatureItem image="coacheta.svg" text="Suivez vos performances physiques." />
+      <FeatureItem image="coacheta.svg" text="Partagez vos progrès avec vos amis." />
     </div>
     <Mockup />
   </div>
@@ -26,12 +26,12 @@ import FeatureScreen from '../components/FeatureScreen.vue';
 <div class="features">
   <div class="mt-4 flex flex-col gap-8">
     <FeatureScreen
-        image="../assets/imgs/accueil.svg"
+        image="accueil.svg"
         title="Accueil"
         description="Accès à la page Mes séances et programmes, page de suivi de progression, affichage du calendrier à la date du jour, possibilité d’ajouter une séance."
     />
     <FeatureScreen
-        image="../assets/imgs/mes_seances_programmes.svg"
+        image="accueil.svg"
         title="Mes séances & programmes"
         description="La liste des séances et programmes existants, possibilité de création de nouvelles séances et de nouveaux programmes."
     />
