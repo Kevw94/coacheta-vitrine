@@ -22,4 +22,6 @@ defineProps<{
   background: rgba(255, 255, 255, 0.10);
   box-shadow: 0 8px 12px 6px rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.30);
 }
+
+
 </style>

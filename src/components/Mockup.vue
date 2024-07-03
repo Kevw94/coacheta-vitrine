@@ -2,7 +2,7 @@
   <div class="relative flex items-center justify-center h-screen bg-primary">
     <div class="absolute w-[579px] h-[580px] rounded-full opacity-20" :style="circleStyle"></div>
     <div class="relative z-10 p-8 bg-white bg-opacity-10 rounded-lg shadow-lg">
-      <img src="../assets/imgs/mockup_image.svg" alt="Mockup" class="w-full h-auto mx-auto">
+      <img src="../assets/imgs/double_coachetaa.svg" alt="Mockup" class="w-full h-auto mx-auto">
     </div>
   </div>
 </template>

@@ -7,7 +7,7 @@
       <img :src="getUrl(image)" alt="Feature image" class="relative z-10 mx-auto">
     </div>
     <div class="flex-1 text-center md:text-left">
-      <h3 class="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white">{{ title }}</h3>
+      <h3 class="text-gradient mb-4 text-2xl font-extrabold text-gray-900 dark:text-white">{{ title }}</h3>
       <p class="text-lg text-gray-700 dark:text-gray-200">{{ description }}</p>
     </div>
   </div>
@@ -37,5 +37,13 @@ defineProps<{
   background: #5BC0BE;
   opacity: 0.2;
   border-radius: 50%;
+}
+
+
+.text-gradient {
+  background-image: linear-gradient(to right, #5BC0BE, #9EFFF0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 </style>

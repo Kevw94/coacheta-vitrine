@@ -17,7 +17,6 @@
 </template>
 
 <style scoped>
-/* Style pour le texte "Coacheta" comme lien avec dégradé */
 .text-gradient {
   background-image: linear-gradient(to right, #5BC0BE, #9EFFF0);
   -webkit-background-clip: text;
