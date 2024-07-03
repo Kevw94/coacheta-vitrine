@@ -5,9 +5,8 @@
   <div class="p-8">
     <div class="w-full text-center mb-16">
       <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-        <span class="text-gradient text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 ">About Coacheta</span>
+        <span class="text-gradient text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">About Coacheta</span>
       </h1>
-
     </div>
     <div class="card p-10 rounded-lg shadow-lg mx-auto max-w-3xl mb-16">
       <p class="text-lg text-justify text-white">
@@ -18,7 +17,7 @@
       </p>
     </div>
 
-    <div class="mt-16 flex justify-center gap-12">
+    <div class="mt-16 flex flex-wrap justify-center gap-12">
       <div class="relative">
         <div class="circle"></div>
         <img src="../assets/imgs/guilhem.svg" alt="Photo 1" class="photo">
@@ -84,5 +83,28 @@
 
 .mt-16 {
   margin-top: 4rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .circle {
+    width: 150px;
+    height: 150px;
+  }
+  .photo {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
+  .photo {
+    width: 80px;
+    height: 80px;
+  }
 }
 </style>
